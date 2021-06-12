@@ -2,7 +2,7 @@
 #Tech used(Backend)
  - Node js(Express)
  - MongoDb
-#To run project
+# To run project
  1.First clone the project from github (git clone https://github.com/ashishpokhrel123/IDA.git)
  2. After that go to project and type command npm install to save all dependency
  3. And at last open in code editior
