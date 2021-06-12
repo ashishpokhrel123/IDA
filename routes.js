@@ -24,6 +24,11 @@ router.post('/signup', (req, res, next) => {
             res.json({ status: "Signup success!", token:token });
         }).catch(next);
     });
+
+/* logging to the system */
+router.post('/login', (req, res, next) => {
+    
+})
 /* getting User data by id */
 
 router.get('/myprofile', auth.verifyUser, (req, res, next)=>{
